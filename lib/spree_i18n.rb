@@ -1,6 +1,8 @@
 require 'spree_core'
 require 'spree_i18n_hooks'
 
+pp 'reuired'
+
 module SpreeI18n
   class Engine < Rails::Engine
 
