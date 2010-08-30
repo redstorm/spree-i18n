@@ -1,2 +1,4 @@
+*.swp
+*/**/*.swp
 config/locales/en-US_spree.yml
 config/locales/en_spree.yml

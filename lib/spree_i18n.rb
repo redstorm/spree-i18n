@@ -11,6 +11,7 @@ module SpreeI18n
     def self.activate
     end
 
+    config.autoload_paths += %W(#{config.root}/lib)
     config.to_prepare &self.activate
   end
 end
